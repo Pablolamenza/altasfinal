@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "5e5c1232-ea09-422e-b727-e5e60a2190d8",
+		"name": "Nest Ayacucho",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4665045"
+	},
+	"item": [
+		{
+			"name": "Pistas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Local}}/pistas",
+					"host": [
+						"{{Local}}"
+					],
+					"path": [
+						"pistas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pista x ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Local}}/pistas/a354c326-fc53-4079-9568-9de965eecb7a",
+					"host": [
+						"{{Local}}"
+					],
+					"path": [
+						"pistas",
+						"a354c326-fc53-4079-9568-9de965eecb7a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pista",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"abc2\",\r\n    \"duracion\": 360,\r\n    \"interprete\": \"algo2\",\r\n    \"lanzamiento\": 2023\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Local}}/pistas",
+					"host": [
+						"{{Local}}"
+					],
+					"path": [
+						"pistas"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "Local",
+			"value": "http://localhost:3000",
+			"type": "string"
+		}
+	]
+}

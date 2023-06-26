@@ -1,0 +1,4 @@
+5e312d11-3449-46ae-ba2f-64820d26e518,abc2,360,algo2,2023
+
+c786ab2a-3cb3-441a-a023-0a971f8ca358,Redondel,360,Ella es tan cargosa,1990
+556bb7bd-b92a-42fa-9848-56a9ddecc1ef,cancion,250,interprete,2020
